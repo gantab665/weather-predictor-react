@@ -1,0 +1,55 @@
+/* Add custom styles to enhance the forecast layout */
+
+/* Center the header */
+.display-4 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style for each weather card */
+.card {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+/* Add a shadow and adjust card size on hover */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the weather icon */
+.card-img-top {
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+/* Style for card title and text */
+.card-title {
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+/* Remove underlines from links */
+.day-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Center the links */
+.day-link {
+    display: flex;
+    justify-content: center;
+}
+
+/* Add space between the cards */
+.mb-4 {
+    margin-bottom: 20px;
+}
